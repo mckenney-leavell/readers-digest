@@ -1,0 +1,37 @@
+Table User {
+    id int [pk]
+    username varchar
+    email varchar
+    password varchar
+    first_name varchar
+    last_name varchar
+}
+
+Table Book {
+    id int [pk]
+    title varchar
+    author varchar
+    ISBN int
+    cover_image_url varchar
+    auth_user int [ref: > User.id]
+}
+
+Table Category {
+    id int [pk]
+    name varchar
+}
+
+Table assignedCategory {
+    id int [pk]
+    book_id int [ref: > Book.id]
+    category_id int [ref: > Category.id]
+}
+
+Table bookReview {
+    id int [pk]
+    book_id int [ref: > Book.id]
+    user_id int [ref: > User.id]
+    rating int
+    comment varchar
+    date_posted date
+}
