@@ -1,0 +1,68 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "user": 4,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn_number": "9780743273565",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn_number": "9780061120084",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn_number": "9780451524935",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "user": 6,
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn_number": "9780141439518",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "user": 2,
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "isbn_number": "9780316769174",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780316769174-L.jpg"
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 6,
+        "fields": {
+            "user": 5,
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "isbn_number": "9780590353427",
+            "cover_image": "https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg"
+        }
+    }
+]
